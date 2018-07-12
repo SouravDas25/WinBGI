@@ -3,3 +3,6 @@ compiler:
   - clang
   - gcc
 script: ./wbgi/test.c
+matrix:
+  include:
+    - os: windwos
