@@ -6,6 +6,7 @@
             - graphics.h
             - libbgi.a
             - test.cpp
+            inside wBGi folder
   - Open DevC++ installed directory By Right Clicking the shortcut and click open file location.
   - Inside DevC++ installed directory open MinGW64 Folder.
   - copy graphics.h to include Folder which is inside MinGW64.
@@ -15,4 +16,4 @@
   - In the Genaral Tab make sure the button saying "Add the following command when calling linker." is checked.
   - Inside the box just below it add the following command "-lbgi  -lgdi32" without quotes.
   - Click OK
-  - Now Compile and Run the test program.
+  - Now Compile and Run the wBGI\test.c program.
